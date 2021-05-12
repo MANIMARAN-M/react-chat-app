@@ -1,0 +1,29 @@
+.NavBarSection {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 800px;
+  width: 100%;
+  height: 65px;
+  border-bottom: 1px solid #fff;
+  .NavBarFlex {
+    max-width: 800px;
+    background: #0e1630;
+    padding: 0 20px;
+    line-height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .SignOutBtn {
+      button {
+        padding: 10px 10px;
+        background: #f06;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+    }
+  }
+}

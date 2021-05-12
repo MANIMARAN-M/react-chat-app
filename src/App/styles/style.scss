@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: "border-box";
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #0e1630;
+
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+.h1,
+.p .small,
+a {
+  color: #fff;
+}
+.h1 {
+  font-size: 2rem;
+}
+.p {
+  font-size: 1.5rem;
+}
+.small {
+  font-size: 1.2rem;
+}
+.MainApp {
+  max-width: 800px;
+  margin: 0 auto;
+  //   max-height: 100vh;
+  //   overflow-y: auto;
+}
+img {
+  pointer-events: none;
+}
+@media screen and (max-width: "550px") {
+  .h1 {
+    font-size: 1.2rem;
+  }
+  .p {
+    font-size: 1rem;
+  }
+  .small {
+    font-size: 0.8rem;
+  }
+}
+@import "../Components/NavBar/NavBar";
+@import "../Components//Channel/Channel";
+@import "../Components/HomePage/HomePage";
