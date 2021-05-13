@@ -43,7 +43,7 @@ const Channel = ({ user = null }) => {
   };
 
   return (
-    <div className="ChannelSection">
+    <div className="ChannelSection" data-testid="Channel-1">
       <div className="ChannelScroll">
         <div className="ChannelWel p">Welcome to firechat 🎉</div>
         <div>
@@ -61,7 +61,9 @@ const Channel = ({ user = null }) => {
             placeholder="Text here..."
             required
           />
-          <button type="submit">Send</button>
+          <button type="submit" data-testid="send">
+            Send
+          </button>
         </form>
       </div>
     </div>
